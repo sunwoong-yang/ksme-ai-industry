@@ -1,0 +1,13 @@
+# Original meeting materials stay local.
+drive-download-*/
+*.zip
+*.pptx
+*.docx
+*.pdf
+~$*
+work/
+outputs/
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
