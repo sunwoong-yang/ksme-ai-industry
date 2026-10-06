@@ -1943,10 +1943,10 @@ body.modal-open {
 .member-group-heading>span{font-size:16px;color:var(--muted)}
 .members-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:38px 28px}
 .member-card{min-width:0;display:flex;flex-direction:column}
-.member-photo{position:relative;display:block;aspect-ratio:3/4;overflow:hidden;background:#f0f2ee;border-radius:4px}
+.member-photo{position:relative;display:block;width:75%;margin-inline:auto;aspect-ratio:3/4;overflow:hidden;background:#f0f2ee;border-radius:4px}
 .member-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
 .member-photo:hover{outline:2px solid var(--green);outline-offset:3px}
-.member-info{padding-top:17px}
+.member-info{padding-top:17px;text-align:center}
 .member-role{font-size:16px;color:var(--green);line-height:1.6}
 .member-info h4{font-size:24px;font-weight:700;line-height:1.45;margin:4px 0;letter-spacing:-.025em}
 .member-affiliation{font-size:16px;line-height:1.7;color:var(--muted);margin-bottom:18px}
